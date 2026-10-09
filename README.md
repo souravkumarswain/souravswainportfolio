@@ -1,4 +1,4 @@
-# 🚀 Shamya lohitha's Portfolio
+# 🚀 Sourav Swain's Portfolio
 
 A modern, responsive, and animated developer portfolio built to showcase my skills, projects, experience, and achievements as a **Full Stack Developer**.
 
@@ -122,7 +122,3 @@ http://localhost:3000
 If you like this portfolio, consider giving this repository a ⭐.
 
 ---
-
-## 📄 License
-
-This project is licensed under the MIT License.
