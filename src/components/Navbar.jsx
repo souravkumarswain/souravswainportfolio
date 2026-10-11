@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
 
 const Navbar = () => {
@@ -51,7 +51,7 @@ const Navbar = () => {
         {/* Left Side: Logo/Name */}
         <div className="flex items-center">
           <a href="#" className="text-white text-2xl font-black tracking-tight whitespace-nowrap">
-            {personalInfo.brandName}<span className="text-red-500">.</span>
+            {personalInfo.brandName}<span className="text-[#284485]">.</span>
           </a>
         </div>
 
@@ -62,11 +62,11 @@ const Navbar = () => {
               key={link} 
               href={link === 'Home' ? '#' : `#${link.toLowerCase()}`}
               onClick={(e) => handleNavClick(e, link)}
-              className="text-white/80 hover:text-white font-medium relative group transition-colors duration-300 cursor-pointer"
+              className="text-white/80 hover:text-[#284485] font-medium relative group transition-colors duration-300 cursor-pointer"
             >
               {link}
               {/* Smooth hover underline */}
-              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-red-500 transition-all duration-300 group-hover:w-full"></span>
+              <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-white/60 transition-all duration-300 group-hover:w-full"></span>
             </a>
           ))}
         </div>
@@ -75,7 +75,7 @@ const Navbar = () => {
           <a 
             href="#contact"
             onClick={handleHireMe}
-            className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-white font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md cursor-pointer"
+            className="px-6 py-2.5 rounded-full bg-white/10 border border-white/20 text-[#284485] font-semibold hover:bg-white/20 hover:shadow-[0_0_15px_rgba(255,255,255,0.2)] transition-all duration-300 backdrop-blur-md cursor-pointer"
           >
             Hire Me
           </a>
