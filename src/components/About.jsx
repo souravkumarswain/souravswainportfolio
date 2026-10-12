@@ -1,5 +1,5 @@
 import React from 'react';
-import stackImage from '../assets/about/lohitha-avatar.png';
+import stackImage from '../assets/about/sourav_avatar.png';
 import { aboutContent } from '../data/portfolioData';
 
 // Tech stack icons using official high-quality logos from devicons CDN
@@ -59,7 +59,7 @@ const MernIcon = () => (
 
 const About = () => {
   return (
-    <section id="about" className="bg-[#ff2a2a] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
+    <section id="about" className="bg-[#87abc7] pt-20 pb-40 px-6 md:px-12 w-full relative overflow-hidden font-sans">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row gap-16 items-start">
         
         {/* Left Side: ID Badge and Skills */}
@@ -93,7 +93,7 @@ const About = () => {
         {/* Right Side: Info Content */}
         <div data-aos="fade-left" data-aos-delay="200" className="flex-1 text-white mt-8 md:mt-0 relative z-20">
           
-          <h2 className="text-4xl md:text-5xl font-black text-black mb-4">{aboutContent.heading}</h2>
+          <h2 className="text-4xl md:text-5xl font-black text-[#284485] mb-4">{aboutContent.heading}</h2>
           <p 
             className="text-lg font-bold mb-12 leading-relaxed max-w-3xl text-red-50"
             dangerouslySetInnerHTML={{ __html: aboutContent.bio }}

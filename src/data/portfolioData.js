@@ -40,7 +40,7 @@ export const heroContent = {
 
 export const aboutContent = {
   heading: "Hello!",
-  bio: `Hi, my name is <span class="text-black text-xl font-black mx-1 tracking-wide uppercase">Sourav Kumar Swain</span>, a full-stack and backend engineer passionate about solving real-world problems through technology. B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology. Strong believer in continuous learning and building production-ready applications. I specialize in designing scalable backend systems, developing AI-powered solutions, and building modern web applications with focus on clean architecture and reliable systems.`,
+  bio: `Hi, my name is <span class="text-[#284485] text-xl font-black mx-1 tracking-wide uppercase">Sourav Kumar Swain</span>, a full-stack and backend engineer passionate about solving real-world problems through technology. B.Tech Data Science Student (2023-2027) at Aditya College of Engineering and Technology. Strong believer in continuous learning and building production-ready applications. I specialize in designing scalable backend systems, developing AI-powered solutions, and building modern web applications with focus on clean architecture and reliable systems.`,
   techStack: ["React", "Node.js", "Java", "Spring Boot", "Python", "PostgreSQL", "MongoDB", "Docker", "AWS", "AI/ML"],
   highlights: [
     "⭐ 9.13 CGPA | Department Topper",
